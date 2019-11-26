@@ -1,4 +1,4 @@
-#SpaceInvaders Demo
+# SpaceInvaders Demo
 By: James Corcoran
 
 Special Thanks: Edward Keenan
@@ -6,19 +6,19 @@ Special Thanks: Edward Keenan
 
 YouTube DEMO URL: http://youtu.be/W0iKOQ_Qanw?hd=1
 
-#Last update to the project: 03-19-2018
+# Last update to the project: 03-19-2018
 - This was one of the most enlightening, albeit grueling, experiences of my very young programming career.
 - Even as I wrote this, I was trying to think about how i can make the game more efficient.
 - Down the stretch i really started to break some of our rules, mostly D.R.Y concepts, and adding too many conditionals.
 - I completely understood when my professor, Edward Keenan, would say that they add more margin for error because our human logic is fallible. But, i digress.
  
-#Existing Problems:
+# Existing Problems:
 - 2 level limit,
 - no 2 player,
 - I used to have an issue with my splat animations(they had some issues with back pointers in the draw/render methods when i was "spamming" a lot of missiles,
 when the aliens were close, and it needed to show a lot of the same animations at once). But, i haven't ran into the problem since my last changes yesterday.
 
-#Proudest achievements
+# Proudest achievements
 - I used a graveyard, but for some reason after the 2nd level i would lose a good chunk of my aliens,
 which was really frustrating so i had to do a two level cut-off just for flow and presentation purposes.
  
