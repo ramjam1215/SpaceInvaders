@@ -1,7 +1,7 @@
 # SpaceInvaders Demo
 By: James Corcoran
 
-Special Thanks: Edward Keenan
+Special Thanks: Professor Edward Keenan, Depaul University CDM
 (a computer philopsher king from Ancient Greece reincarnated for the modern times)
 
 YouTube DEMO URL: http://youtu.be/W0iKOQ_Qanw?hd=1
