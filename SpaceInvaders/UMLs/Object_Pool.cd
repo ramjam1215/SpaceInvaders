@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Where It all started, Its like a Walk through Memory Lane">
+    <Position X="4.825" Y="1.325" Height="0.75" Width="3.833" />
+  </Comment>
+  <Class Name="SpaceInvaders.Manager">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <Members>
+      <Method Name="BaseGetActive" Hidden="true" />
+      <Field Name="InitialNumReserve" Hidden="true" />
+      <Field Name="NumActive" Hidden="true" />
+      <Field Name="NumReserve" Hidden="true" />
+      <Field Name="TotalNodes" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>gAAIAAEABAAAAIhAEBBAogIAQAAAAAAAAAAQAPAQARA=</HashCode>
+      <FileName>Manager\Manager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.DLink">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAAABBEAg=</HashCode>
+      <FileName>Manager\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

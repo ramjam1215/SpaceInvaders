@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Texture and Texture Manager">
+    <Position X="0.76" Y="1.129" Height="0.375" Width="4.72" />
+  </Comment>
+  <Comment CommentText="Image and Image Manager">
+    <Position X="7.281" Y="1.357" Height="0.364" Width="4.742" />
+  </Comment>
+  <Comment CommentText="Game Sprite Serves as Our Adapter">
+    <Position X="17.695" Y="3.992" Height="0.508" Width="4.279" />
+  </Comment>
+  <Class Name="SpaceInvaders.Texture_Link" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Texture">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <Members>
+      <Method Name="Clear" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="Texture" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Texture.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Texture\Texture.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAABAABAAAAAAAAAEAAAAEQAAAAIAAQABABAA=</HashCode>
+      <FileName>Texture\Texture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TextureMan_MLink" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\TextureMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.TextureMan">
+    <Position X="1" Y="3.5" Width="1.5" />
+    <Members>
+      <Method Name="Destroy" Hidden="true" />
+      <Method Name="DumpTextures" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="PrivGetInstance" Hidden="true" />
+      <Method Name="PrivStatDump" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="TextureMan" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIIgAAAABAAAAEAABEAJAAAAABIAEAAAAASAAAAAAA=</HashCode>
+      <FileName>Texture\TextureMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Image_Link" Collapsed="true">
+    <Position X="10.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Image">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <Members>
+      <Method Name="Clear" Hidden="true" />
+      <Method Name="Image" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Image.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Image\Image.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <InheritanceLine Type="SpaceInvaders.Image_Link" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="11" Y="2.691" />
+        <Point X="11" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="pTexture" Type="SpaceInvaders.Texture">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="2.716" Y="0.088" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACBQAAAAAAJAEAAAAEQAAAAAAAQABABAA=</HashCode>
+      <FileName>Image\Image.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pTexture" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ImageMan_MLink">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image\ImageMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ImageMan" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIIAgAAAAAAAAEAABEAJAAAAABIAEAAAAASAAAAAAA=</HashCode>
+      <FileName>Image\ImageMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameSprite">
+    <Position X="18.75" Y="5.25" Width="1.5" />
+    <Members>
+      <Field Name="angle" Hidden="true" />
+      <Method Name="Clear" Hidden="true" />
+      <Method Name="DumpSprite" Hidden="true" />
+      <Method Name="GameSprite" Hidden="true" />
+      <Method Name="GetAzulSprite" Hidden="true" />
+      <Method Name="GetImage" Hidden="true" />
+      <Method Name="GetName" Hidden="true" />
+      <Method Name="GetScreenRect" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+      <Method Name="PosX" Hidden="true" />
+      <Method Name="PosY" Hidden="true" />
+      <Method Name="Render" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="SetName" Hidden="true" />
+      <Method Name="SwapImage" Hidden="true" />
+      <Method Name="SwapTexture" Hidden="true" />
+      <Method Name="SwapTextureRect" Hidden="true" />
+      <Field Name="sx" Hidden="true" />
+      <Field Name="sy" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.GameSprite.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\GameSprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ggQAABAACAAAJABAAgkAwAAQAAAEQAgAABBgwABBBAQ=</HashCode>
+      <FileName>Sprite\GameSprite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poAzulColor" />
+      <Field Name="poAzulSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Azul.Color" Collapsed="true">
+    <Position X="22" Y="7" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Azul.Sprite" Collapsed="true">
+    <Position X="22" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SpaceInvaders.ProxySprite">
+    <Position X="16.25" Y="5" Width="1.5" />
+    <Members>
+      <Method Name="~ProxySprite" Hidden="true" />
+      <Method Name="Clear" Hidden="true" />
+      <Method Name="DumpProxy" Hidden="true" />
+      <Method Name="GetName" Hidden="true" />
+      <Method Name="ProxySprite" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="SetName" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.ProxySprite.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\ProxySprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAQIAEAAAAQABABAAAAAwAgAAAAEQAAAABBgQABABAA=</HashCode>
+      <FileName>Sprite\ProxySprite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
