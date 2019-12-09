@@ -1,5 +1,5 @@
 # SpaceInvaders Demo
-- Copyright &copy; by James Corcoran
+By: James Corcoran
 - Special Thanks: Professor Edward Keenan, Depaul University CDM
 (a computer philopsher king from Ancient Greece reincarnated for the modern times)
 
